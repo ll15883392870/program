@@ -4,8 +4,10 @@
 
 from __future__ import print_function
 import sys
+
+from PyQt5.QtWidgets import QApplication
+
 from mainwindow import MainWindow
-from PyQt5.Qt import QApplication
 
 
 def main():

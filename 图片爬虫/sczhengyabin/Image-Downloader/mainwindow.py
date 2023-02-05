@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 # author: Yabin Zheng
 # Email: sczhengyabin@hotmail.com
+from PyQt5.QtCore import QTime, QElapsedTimer, QTimer
+from PyQt5.QtWidgets import QMainWindow, QDialog, QFileDialog
 
 from ui_mainwindow import Ui_MainWindow
 from ui_about import Ui_Dialog_about
 import utils
 
-from PyQt5.Qt import *
+
 from PyQt5.QtTest import QTest
 from threading import Thread
 import shlex

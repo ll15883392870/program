@@ -24,9 +24,9 @@ if getattr(sys, 'frozen', False):
 else:
     bundle_dir = os.path.dirname(os.path.abspath(__file__))
 
-dcap = dict(DesiredCapabilities.PHANTOMJS)
+dcap = dict(DesiredCapabilities.CHROME)
 dcap["phantomjs.page.settings.userAgent"] = (
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100"
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.74"
 )
 
 

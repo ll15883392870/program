@@ -4,3 +4,7 @@
 
 ### 1、图片爬虫----sczhengyabin大佬所制框架
 
+本项目使用python3.10<br>
+库安装：
+pip install -r requirements.txt -i https://pypi.mirrors.ustc.edu.cn/simple
+我的谷歌浏览器版本109.0.5414.120 采用109.0.5414.74 chrome调试器,将bin文件下目录放入python安装目录
